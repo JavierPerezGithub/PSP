@@ -27,6 +27,7 @@ public class Mayusculas {
 				InputStreamReader isr = null;
 				BufferedReader br = null;
 				recibeFlujo(p,is,isr,br);
+				sc.close();
 			}						
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -46,4 +47,5 @@ public class Mayusculas {
 		os.write(texto.getBytes());
 		os.flush();
 	}
+	
 }
