@@ -19,6 +19,7 @@ public class Contador extends JFrame implements Runnable, ActionListener {
 	private Thread hilo;
 	private Font fuente;
 	private int cont = 0;
+	String prueba;
 	String contador = null;
 
 	/**
